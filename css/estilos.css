@@ -50,3 +50,9 @@ header nav a {
     text-decoration: none;
     margin-right: 20px;
 }
+
+header nav a:hover,
+header nav a.active {
+
+    color: #FFF;
+}
