@@ -115,3 +115,24 @@ header nav a.active {
     background: #FFF;
     color: #000;
 }
+/* media queryes */
+
+@media screen and (max-width: 800px) {
+    header .logotipo{
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+
+    header .contenedor {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .pelicula-principal {
+        font-size: 14px;
+    }
+
+    .pelicula-principal .descripcion {
+        max-width: 100%;
+    }
+}
