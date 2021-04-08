@@ -115,15 +115,31 @@ header nav a.active {
     background: #FFF;
     color: #000;
 }
-/*Contenedor del titulo y controles 
-.contenedor-titulos-controles {
+/*Contenedor del titulo y controles */
+.contenedor-titulo-controles {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: end;
 }
-*/
 
+.contenedor-titulo-controles h3 {
+    color: #FFF;
+    font-size: 30px;
+}
 
+.contenedor-titulo-controles .indicadores button {
+    background: #FFF;
+    height: 3px;
+    width: 10px;
+    cursor: pointer;
+    border: none;
+    margin-right: 2px;
+}
+
+.contenedor-titulo-controles .indicadores button:hover, 
+.contenedor-titulo-controles .indicadores button.activo {
+    background: red;
+}
 
 
 /* Contenedor principal y flechas */
