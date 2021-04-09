@@ -52,7 +52,7 @@ header nav a {
 }
 
 header nav a:hover,
-header nav a.active {
+header nav a.activo {
 
     color: #FFF;
 }
@@ -138,6 +138,7 @@ header nav a.active {
 .contenedor-titulo-controles .indicadores button:hover, 
 .contenedor-titulo-controles .indicadores button.activo {
     background: red;
+    border: red;
 }
 
 
